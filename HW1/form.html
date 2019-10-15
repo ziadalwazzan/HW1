@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <style>
+  </style>
+</head>
+
+<body style="background-color: white;">
+  <h1 style="text-align: center;" class="container-fluid"> This is a sample form</h1>
+  <div style="width: 81%; margin-left : 9.5%; border-radius: 10px; background-color: powderblue;">
+    <form style="width: 98%; margin-left : 1%;">
+      <div class="form-group">
+        <br>
+        <label>Title</label>
+        <input style="margin:center;" class="form-control" type="text" placeholder="Enter Title">
+        <br>
+        <label>Author Name</label>
+        <input style="margin:center;" class="form-control" type="text" placeholder="Enter Author Name">
+        <br>
+        <p>Default file:</p>
+        <input type="file" id="myFile" name="filename2">
+        <br>
+        <label for="sel1">Pages</label>
+        <select class="form-control" id="sel1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+        <br>
+        <p>Article Text</p>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+        <br>
+        <label>Select Tags</label>
+        <br>
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">Python
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">C++
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">Java
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">Scala
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">Perl
+        </label>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> Public
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> Private
+          </label>
+        </div>
+        <br><br>
+        <label> Login to Finish Submitting </label>
+        <br>
+        <label>Username</label>
+        <input style="margin:center;" class="form-control" type="text" placeholder="Enter Username">
+        <br>
+        <label>Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+        <br>
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">Remember Me
+        </label>
+        <br>
+        <button type="button" class="btn btn-primary">Submit</button>
+        <br>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
